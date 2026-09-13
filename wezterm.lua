@@ -24,7 +24,7 @@ config.show_new_tab_button_in_tab_bar = false
 config.tab_max_width = 32
 config.tab_bar_at_bottom = false
 
--- Custom Tab Title Formatting
+-- Tab Title
 wezterm.on('format-tab-title', function(tab, tabs, panes, config, hover, max_width)
   local title = tab.active_pane.title
   local index = tab.tab_index + 1
