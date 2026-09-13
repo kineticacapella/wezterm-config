@@ -7,14 +7,14 @@ config.window_background_opacity = 0.85
 
 -- Font Configuration
 config.font = wezterm.font('JetBrainsMono Nerd Font')
-config.font_size = 11.0
+config.font_size = 14.0
 
 -- Window Layout
 window_padding = {
   left = 2,
   right = 2,
-  bottom = 8,
-  top = 8, 
+  bottom = 2,
+  top = 2, 
 }
 
 -- Tab Bar Setup
