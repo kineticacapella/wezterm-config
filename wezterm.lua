@@ -7,7 +7,7 @@ config.window_background_opacity = 0.85
 
 -- Font Configuration
 config.font = wezterm.font('JetBrainsMono Nerd Font')
-config.font_size = 14.0
+config.font_size = 11.0
 
 -- Window Layout
 window_padding = {
