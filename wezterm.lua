@@ -4,10 +4,11 @@ local config = wezterm.config_builder()
 -- General Settings
 config.front_end = "OpenGL"
 config.window_background_opacity = 0.85
+config.enable_kitty_graphics = true
 
 -- Font Configuration
-config.font = wezterm.font('JetBrainsMono Nerd Font')
-config.font_size = 14.0
+config.font = wezterm.font('JetBrains Mono')
+config.font_size = 12.0
 
 -- Window Layout
 window_padding = {
@@ -61,7 +62,7 @@ config.colors.tab_bar = {
 
   -- Active Tab
   active_tab = {
-    bg_color = '#000000',
+    bg_color = 'rgba(0, 0, 0, 0.85)',
     fg_color = '#ffffff',
   },
 
